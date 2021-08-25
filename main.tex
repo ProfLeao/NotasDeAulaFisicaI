@@ -13,6 +13,8 @@
 \usepackage{csquotes}
 \usepackage{setspace}
 
+\newtheorem{mydef}{Definicão}
+\newtheorem{proof}{Demonstração}
 \renewcommand{\baselinestretch}{1.2} 
 
 \newenvironment{myboxed}
@@ -36,7 +38,7 @@
 %\twocolumninarea[>3]{0.8\textwidth}{\textheight}{0.52\textwidth}{0pt}
 
 
-\newdynamicframe{0.3\textwidth}{0.7\textheight}{0pt}{0pt}[left]
+\newdynamicframe{0.2\textwidth}{0.8\textheight}{0pt}{0pt}[left]
 
 \dfchaphead*{left}
 \renewcommand{\DFchapterstyle}[1]{%
@@ -73,7 +75,7 @@ Grupo de Estudos em Sistemas Energéticos e Simulação Computacional.}
 
 {\noindent
 \slshape\Huge\MakeUppercase{FÍSICA I: Mecânica \\} 
-Notas de Aulas :: {Versão 1 - Agosto de 2021} \par
+Notas de Aulas :: {Versão 2 - Agosto de 2021} \par
 \vskip0.3in
 \noindent\large{Prof. Dr. Reginaldo Leão} \\
 }\date{\today}
@@ -102,10 +104,11 @@ formação dos corpos celestes, o próprio ciclo de vida dos elementos component
 da matéria, constantemente fundidos e destruídos no coração de estrelas jovens e 
 velhas, a organização e complexidade das galáxias e o cosmos.
 
-Embora o ser humano seja naturalmente um animal questionador, essa evolução 
-científica só foi possível graças a sua capacidade de observar algo de forma 
-sistemática, registrá-lo e organizá-lo sistematicamente, de modo tal que o permita
-sugerir inferências fundamentadas sobre o observado, questionar o observado e 
+Embora o ser humano seja naturalmente um animal questionador, só foi possível 
+alcançar o atual status de desenvolvimento científico e tecnológico,
+graças à sua capacidade de observar algo de forma 
+sistemática, registrá-lo e organizá-lo logicamente, de modo tal que o permitisse
+sugerir inferências fundamentadas, questionar o observado e 
 buscar respostas consistentes. 
 
 Ao longo da história, as mentes mais curiosas da humanidade fizeram esse 
@@ -116,12 +119,12 @@ das quais podemos construir novos conhecimentos de uma forma satisfatoriamente
 confiável. 
 
 Ainda que, o Método Científico seja quase sempre atribuído a Isaac Newton, ou as
-vezes a Galileu Galilei, sua criação não pode ser de fato atribuída a um único 
+vezes a Galileu Galilei, sua criação não pode ser de fato conferida a um único 
 autor. O pensamento greco-ocidental, os lastros históricos do conhecimento 
 científico de egípcios, sumérios e mesopotâmicos, o pensamento filosófico 
 racionalista e determinista e mesmo contribuições recentes como a Teoria da 
 Complexidade de Edigar Morin, foram fundamentais para compor a complexidade e o
-nível de especialidade e precisão da Ciência moderna.
+nível de especialidade e precisão da ciência moderna.
 
 No entanto, a despeito de todo o arcabouço conceitual por trás do método, é 
 possível sugerir que o átomo do método científico provavelmente seja a 
@@ -141,7 +144,7 @@ O primeiro deles está associado a impossibilidade de se medir com precisão tot
 o valor de uma grandeza. Em outras palavras \emph{é impossível determinar o 
 valor verdadeiro de uma grandeza física.} 
 
-Esta impossibilidade se deve ao fato de que medir algo significa compará-lo com
+Esta impossibilidade se deve ao fato de que medir algo, significa compará-lo com
 um determinado padrão. Quando se mede a distância entre duas cidades, o que se 
 faz é comparar o espaço entre elas (medido segundo algum critério previamente
 determinado, como distância rodoviária ou geodésica) com o padrão quilômetro, 
@@ -160,9 +163,9 @@ Deste modo, medir a distância entre duas cidades, significa comparar tal
 distância a um conjunto de unidades quilométricas linearmente justapostas a que
 dá-se o nome de "escala quilométrica". Uma medida inteira nesta escala hipotética
 está condicionado, ao fato de que os pontos que marcam as limites da distância 
-medida, coincidam com os extremos de cada unidade quilométrica da escala, medida
-esta cuja a probabilidade de ocorrência é baixíssima já que a cada um quilômetro
-apenas um ponto atende a essa condição. 
+medida, coincidam com os extremos de cada unidade quilométrica da escala, 
+configuração esta cuja a probabilidade de ocorrência é infinitesimal já que a 
+cada 01 km apenas um único ponto atende a tal condição. 
 
 Par descrever qualquer outra medida que não seja inteira, recorre-se aos 
 submúltiplos do escala original, o metro por exemplo, \emph{a o que se denomina 
@@ -300,14 +303,14 @@ incerteza como sendo a metade do valor unitário do menor alagarismo exato}.
 
 \subsubsection{O problema do algarismo zero (0)}
 Zeros que são colocados em um número para posicionar o separador decimal, jamais
-devem considerados algarismos significativos. Estes casos são melhores 
+devem ser considerados algarismos significativos. Estes casos são melhores 
 identificados na composição de medidas expressas em unidades de medida 
 diferentes daquelas dos instrumentos em que foram determinadas.
 
 Suponha, por exemplo, uma balança comercial com precisão de 0,1 quilogramas 
 ($kg$), que tenha feito uma leitura de 2,5 $kg$. Quando este valor é expresso em
 gramas - uma unidade de medida distinta daquela original da balança -, então a 
-leitura ficaria 2500 gramas ($g$). Note que no número 2500 os zeros a direita, 
+leitura ficaria 2500 gramas ($g$). Note que no número 2500, os zeros a direita, 
 não tem significado pois a balança não possui tal precisão, portanto não são 
 significativos e só existem para possibilitar a ocorrência do ponto decimal 
 em uma posição correspondente a unidade grama.
@@ -327,9 +330,9 @@ bastante recomendável que as medidas e constantes físicas sejam expressas como
 potências de 10 em Notação Científica. 
 
 \subsubsection{Notação Científica}
-A natação científica é uma recurso de representação de valores por meio de 
+A notação científica é um pelo qual valores são expressos por meio de 
 potências de dez ($10^{n}$) multiplicadas pela mantissa ($\mathcal{M}$) do valor
- que se deseja representar somada à incerteza deste valor, conforme mostrado pela 
+ que se deseja representar, somada à incerteza deste valor, conforme mostrado pela 
  Equação \ref{Eq:pot_dez}.
 
  \begin{equation}
@@ -337,8 +340,8 @@ potências de dez ($10^{n}$) multiplicadas pela mantissa ($\mathcal{M}$) do valo
      \label{Eq:pot_dez}
  \end{equation}
 
-É também convencionado que o valor de $\mathcal{M}$ deve estar no intervalo 
-determinado por $1 \leq \mathcal{M} < 10$.
+É também convencionado que o valor de $\mathcal{M}$ deve estar em um intervalo 
+entre $1 \leq \mathcal{M} < 10$.
 
 Para compreender melhor o uso do recurso, vamos expressar a leitura da régua 
 para o tamanho da caneta em notação científica. Como a medida foi de 
@@ -354,7 +357,7 @@ mantissa esteja entre $1 \leq \mathcal{M} < 10$.
 \end{myboxed}
 
 Neste caso, a vantagem do uso de notação científica não é tão aparente, porém, 
-no exemplo da seção anterior quando o significado dos zeros na leitura 
+no exemplo da seção anterior, quando o significado dos zeros na leitura 
 $2500 \: g$ foi discutido, a forma de $\mathcal{M}$ indica exatamente o número 
 de algarismos significativos no valor.
 
@@ -368,19 +371,19 @@ de algarismos significativos no valor.
 
 É possível notar que a mantissa possui exatamente dois algarismos 
 significativos, além disso, deve ser observado que neste instrumento em 
-específico a incerteza foi assumida como sendo de $100 \: g$. \emph{Em 
+específico, a incerteza foi assumida como sendo de $100 \: g$. \emph{Em 
 instrumentos digitais a incerteza é fornecida pelo fabricante ou convencionada 
 como sendo sua resolução}.
 
 \subsubsection{Algarismos Significativos nas Operações Matemáticas 
 Básicas}
 
-Quando grandezas são operadas matematicamente deve-se determinar uma convenção 
+Quando grandezas são operadas matematicamente, deve-se determinar uma convenção 
 para o tratamento do número de algarismos significativos e incertezas de 
 medidas. Os métodos de tratamento da propagação das incertezas através das 
 operações matemáticas são um pouco mais complexos e não serão tratados neste 
 tópico introdutório. Todavia, as convenções para o cuidado com o número de 
-algarismos significativos são bastante simples conforme pode ser visto na lista
+algarismos significativos são bastante simples, conforme pode ser visto na lista
 abaixo.
 
 \begin{myboxed}
@@ -421,16 +424,16 @@ anteriores, então a seguinte convenção deve ser utilizada.
         \item  o primeiro algarismo abandonado for igual a 5 seguido de um 
         dígito zero, o último dígito conservado deve ser acrescido 
         de uma unidade, se for ímpar, e mantido, se for par.
-        (e.g. $ 1,7|51 \rightarrow 1,8| $ ou $ 1,6|51 \rightarrow 1,6| $); 
+        (e.g. $ 1,7|50 \rightarrow 1,8| $ ou $ 1,6|50 \rightarrow 1,6| $); 
     \end{itemize}
 \end{myboxed}
 
 \subsubsection{Ordens de Grandezas e Estimastivas}
 
 \begin{flushright}
-    A \emph{Via-Láctea} é uma galáxia espiral com pouco mais \\
+    "A \emph{Via-Láctea} é uma galáxia espiral com pouco mais \\
     de $10^5$ anos luz de diâmetro, idade de $10^{10}$ anos \\
-    terrestres e $10^{11}$ estrelas vivas. 
+    terrestres e $10^{11}$ estrelas vivas." 
 \end{flushright}
 
 Ao ler o texto anterior, não é difícil inferir que os dados informados são todos
@@ -447,9 +450,9 @@ ou desnecessária. \emph{A potência selecionada para este propósito, deve ser 
 próxima do valor que se está estimando.} 
 
 As dimensões de nossa galáxia, o número de átomos de carbono presentes em um 
-organismo vivo, o número de elétrons livres por $m^3$ em um condutor elétrico, 
-são todos exemplos de grandezas que podem ser satisfatoriamente representadas 
-apenas por uma órdem de grandeza. 
+organismo vivo e o número de elétrons livres em uma unidade métrica cúbica de 
+um condutor elétrico, são todos exemplos de grandezas que podem ser 
+satisfatoriamente representadas por uma órdem de grandeza. 
 
 Vejamos um exemplo.
 
@@ -568,12 +571,12 @@ as vezes preditivos, para um determinado fenômeno natural. Como dito
 anteriormente, a Física, e todas as ciências legítimas, utilizam um conjuto de 
 regras e protocolos para coletarem informações sobre um fenômeno ou objeto 
 estudado de forma mais consistente e segura. As ciências naturais e exatas, 
-geralmente, valem-se de medidas quantitativas para completar tal tarefa. 
+geralmente, valem-se de medidas quantitativas para realizar tal tarefa. 
 
-Uma medida, nada mais é que a quantificação de uma grandeza, que por sua vez 
+Uma medida, nada mais é que a quantificação de uma grandeza; que por sua vez, 
 deve ser entendida como uma característica bem definida e delimitada do objeto
 ou fenômeno estudado. A Física, como ciência fundamental, se ocupa, na grande 
-maioria das vezes, de grandezas físicas igualmente fundamentais, ou seja, 
+maioria das vezes, de grandezas igualmente fundamentais, ou seja, 
 capazes de descrever bem, pelo menos do ponto de vista clássico \footnote{
     Pesquise sobre as diferenças entre a Física Clássica e Moderna.
 }, o tempo, o espaço e a matéria.
@@ -586,7 +589,7 @@ Unidades (SI) é o metro; \emph{ii)} o \textbf{tempo}, cuja unidade padrão no S
 é o segundo; \emph{iii)} a \textbf{massa}, cuja a unidade padrão é o quilograma
 e a \emph{iv)} \textbf{carga elétrica}, cuja a unidade padrão para a medida é 
 Coulomb ($C$). Todas as unidade mecânicas clássicas podem ser, de alguma forma, 
-obtidas a partir das três primeiras unidades fundamentais. 
+obtidas a partir das três primeiras grandezas fundamentais. 
 
 Considerando, a existência das grandezas fundamentais, comprimento, tempo e 
 massa, pode-se introduzir o conceito de dimensão. Na Física, a palavra dimensão, 
@@ -603,7 +606,7 @@ de sua unidade ser o $m^2$ ou o $ft^2$
 independentemente de sua unidade de medida. 
 
 Para a determinação da dimensão de uma grandeza derivada, como a velocidade ou 
-área por exemplo, se utiliza o recurso da análise dimensional. 
+área, por exemplo, se utiliza o recurso da análise dimensional. 
 
 \subsubsection{Análise Dimensional}
 Quando se trabalha com grandezas cujas as dimensões são desconhecidas, é
@@ -621,9 +624,9 @@ Equação \ref{Eq:prop_pos}.
     \label{Eq:prop_pos}
 \end{equation}
 
-Para converter essa proporcionalidade precisamos multiplicar essa 
-proporcionalidade por uma constante $k$ de tal forma que a Equação 
-\ref{Eq:prop_pos} fica na forma dada pela Equação \ref{Eq:igual_pos}.
+Para converter essa proporcionalidade em igualdade precisamos multiplicá-la por 
+uma constante $k$ de tal forma que a Equação \ref{Eq:prop_pos} fica na forma 
+dada pela Equação \ref{Eq:igual_pos}.
 
 \begin{equation}
     x = k \cdot \frac{1}{2} t^2
@@ -698,9 +701,538 @@ O terceiro capítulo destas notas de aula, apresentará uma revisão bastante
 contextualizada e rigorosa dos métodos de operação com grandezas físicas
 vetoriais.
 
-\chapter{Cinemática Retilinear}
+\chapter{CINEMÁTICA DO PONTO MATERIAL}
 
-asdasdasd
+\section{Cinemática Retilinear}
+\subsection{Difinições Fundamentais}
+As variáveis, jargão e conceitos utilizados para o estudo da Cinemática e 
+Dinâmica são bem estabelecidas, conhecê-las é fundamental para a completa 
+compreensão de toda a discussão proposta na disciplina. 
+
+Os conceitos mais fundamentais são os de \textbf{Ponto Material $P$}, 
+\textbf{Posição $\vec{r}$} e \textbf{Deslocamento $\Delta \vec{r}$}.
+
+\subsubsection*{Ponto Material}
+\begin{mydef}
+    O termo Ponto Material $(P)$ refere-se a um ponte geométrico que representa
+    o centro de massa de um corpo e onde estaria virtualmente concentrada toda a massa do 
+    mesmo corpo. 
+\end{mydef}
+
+A utilização de modelos físicos nos quais os corpos sejam simplificados como pontos materiais
+deve ser restrita a casos nos quais as dimensões do corpo, ou sua rotação,
+não influam sobre a análise mecânica pretendida. Em Física I, trabalharemos 
+principalmente com problemas desta natureza. 
+
+\subsubsection*{Vetor Posição}
+\begin{mydef}
+    A posição, ou como é mais comumente denominado, o Vetor Posição, 
+    $(\vec{r})$ é o vetor que descreve as coordenadas do Ponto Material em um 
+    determinado instante no tempo em relação a uma origem para o sistema de
+    coordenadas.
+\end{mydef}
+
+A Fig. \ref{vecr} mostra como o vetor posição determina as coordenadas do 
+ponto material no espaço. Obviamente esta é uma generalização espacial, nesta 
+seção serão estudas apenas situações nas quais o Ponto Material ocupará apenas 
+posições ao longo de um mesmo eixo, característica própria da Cinemática 
+Retilinear.\\
+
+\begin{staticfigure}
+    \centering
+    
+    \includegraphics[scale=1]{img/vecr.png}
+    
+    \caption{\footnotesize Coordenadas de $P$ determinadas por $\vec{r}$.}
+
+    \label{vecr}
+\end{staticfigure}
+
+\subsubsection*{Deslocamento}
+O deslocamento $(\Delta \vec{r})$ de $P$ pode ser entendido como:
+
+\begin{mydef}
+    É definido como deslocamento $(\Delta \vec{r})$ de $P$, qualquer variação 
+    no vetor posição $(\vec{r})$ ocorrida ao longo do tempo.
+\end{mydef}
+
+onde $(\Delta \vec{r})$ é definido como:
+
+\begin{equation}
+    \Delta \vec{r} = \vec{r}(t + \Delta t ) - \vec{r}(t)
+\end{equation}
+
+No estudo da Cinemática Retilinear, devido aos movimentos serem sempre 
+unidirecionais, é comum que seja adotada a notação escalar das grandezas, ou 
+seja, a magnitude do vetor posição e quaisquer deslocamentos sofridos por 
+ele podem ser obtidos algebricamente, já suas coordenadas podem ser 
+representadas por um escalar $s$.
+
+Esta convenção admite a seguinte propriedade:
+
+\begin{proof}
+Considerando que:
+$$
+\left |\vec{r} \right | = \sqrt{(x^2 + y^2 + z^2)}
+$$
+
+e que $x=s$, $y=0$ e $z=0$ então; 
+
+$$
+\left |\vec{r} \right | = \sqrt{(s^2)}
+$$
+
+e que, 
+
+$$
+\left |\vec{r} \right | = s
+$$
+
+\end{proof}
+Por conseguinte, o deslocamento retilinear pode ser determinado por:
+
+\begin{equation}
+    \Delta s = s( t + \Delta t ) - s(t)
+\end{equation}
+
+\section{Grandezas Cinemáticas}
+
+A Cinemática, como parte da Mecânica que se ocupa da descrição espacial do 
+movimento, se baseia em três grandezas básicas. A posição, 
+já descrita na seção anterior, é a primeira delas, as demais são a 
+velocidade $\vec{v}$ e a aceleração $\vec{a}$.
+
+\subsection{Velocidade}
+
+Na Cinemática a velocidade é tratada de duas formas distintas;
+como velocidade média e velocidade instantânea ou simplesmente velocidade. 
+
+\subsubsection*{Velocidade Média}
+Quando um Ponto Material $P$, translada de uma posição $\vec{r}$, para uma 
+posição $\vec{r'}$ durante um intervalo de tempo $\Delta t$, então a velocidade
+média pode ser obtida conforme o mostrado na Eq. \ref{v_med}.
+
+\begin{equation}
+    \vec{v}_{med} = \frac{\Delta \vec{r}}{\Delta t}
+    \label{v_med}
+\end{equation}
+
+Onde, $\Delta \vec{r}$ é o deslocamento e $\Delta t$ o intervalo de tempo 
+transcorrido durante o deslocamento, conforme mostrado na Fig. \ref{vmed}.
+
+\begin{staticfigure}
+    \centering
+    
+    \includegraphics[scale=0.5]{img/vmed.png}
+
+    \caption{\footnotesize Descrição visual do conceito de velocidade média.}
+    \label{vmed}
+
+\end{staticfigure}
+
+Ocasionalmente pode interessar a determinação da velocidade média ao longo da 
+trajetória de comprimento $s_T$. Nestes casos, define-se a velocidade média de 
+percurso como $v_{perc}$, que é uma grandeza escalar definida pela Eq. 
+\ref{vperc}.
+
+\begin{equation}
+    \left( v_{perc} \right)_{med} = \frac{s_T}{\Delta t}
+    \label{vperc}
+\end{equation}
+
+Onde $s_T$ é comprimento da trajetória percorrida por $P$.
+
+
+
+\subsubsection*{Velocidade Instantânea}
+Quando o intervalo de tempo considerado para a determinação da velocidade 
+média diminui gradativamente, o deslocamento tende a zero e a valor da 
+velocidade média tende para o valor da velocidade instantânea, conforme mostrado na 
+Fig. \ref{vinst} e a Eq. \ref{eq_vinst}.
+
+\begin{equation}
+\vec{v}(t) = \lim_{\Delta t\rightarrow 0} \frac{\Delta \vec{r}}{\Delta t} = 
+\frac{d \vec{r}}{d t}
+\label{eq_vinst}
+\end{equation}
+
+\begin{staticfigure}
+    \centering
+
+    \includegraphics[scale=0.5]{img/vinst.png}
+
+    \caption{\footnotesize Descrição visual do conceito de velocidade instantânea.}
+    \label{vinst}
+\end{staticfigure}
+
+Por conseguinte a velocidade de um corpo é definida como:
+
+\begin{mydef}
+    Velocidade é a taxa temporal de variação da posição de um corpo.
+\end{mydef}
+
+Como a  Eq. \ref{eq_vinst} mostra a velocidade como taxa de variação da 
+posição, pode interessar, em casos como estes, que, a partir da velocidade 
+dada como função do tempo, se obtenha a função horária da posição. 
+O método para tal consiste na obtenção da antiderivada de $v(t)$, conforme 
+mostrado abaixo. Por motivo de simplificação matemática, considere o caso 
+retilinear.
+
+$$
+v(t) = \frac{d s}{dt} \rightarrow 
+\int_{s(t)}^{s(t+\Delta t)}ds = \int_{t}^{t+\Delta t}{v(t) dt}
+$$
+
+
+Considerando as condições iniciais arbitradas como $t=0$ e $s(t=0)=0$, então
+a relação anterior pode ser escrita na forma da Eq. \ref{eq_int_pos}, onde 
+a posição inicial $s(0)$ é a constante adicionada na integração definida.
+
+\begin{equation}
+    s(t) = \left( \int_{0}^{t} v(t) dt \right) + s(0)
+    \label{eq_int_pos}
+\end{equation}
+
+\subsection{Aceleração}
+Assim como a velocidade, a aceleração pode ser tratada de duas formas 
+distintas, como aceleração média e instânea. A lógica para obtenção de cada uma
+das grandezas é semelhante àquela utilizada para a velocidade. 
+
+\subsubsection*{Aceleração Média}
+A aceleração média de um corpo é definida como razão entre a variação da 
+velocidade e o intervalo de tempo transcorrido durante esta variação, conforme
+mostrado na Eq. \ref{acel_med}.
+
+\begin{equation}
+    \vec{a}_{med} = \frac{\Delta \vec{v}}{\Delta \vec{t}}
+    \label{acel_med}
+\end{equation}
+
+\subsubsection*{Aceleração Instantânea}
+A aceleração instante, ou simplesmente aceleração é definida como se segue:
+
+\begin{mydef}
+    A aceleração é definida como a taxa temporal de variação da velocidade 
+    conforme mostrado na Eq. \ref{eq_ainst}. 
+\end{mydef}
+
+\begin{equation}
+    \vec{a}(t) = \lim_{\Delta t\rightarrow 0} \frac{\Delta \vec{v}}{\Delta t} = 
+    \frac{d \vec{v}}{d t}
+    \label{eq_ainst}
+\end{equation}
+
+Como consequência direta da Eq. \ref{eq_ainst}, pode-se provar que:
+
+\begin{proof}
+Se $v = \frac{ds}{dt}$ e $a = \frac{dv}{dt}$, então a primeira equação pode 
+ser substituída na segunda da seguinte forma:
+
+\begin{equation}
+a = \frac{d\left( \frac{ds}{dt}\right)}{dt} = \frac{d^2 s}{dt^2}
+\end{equation}
+
+\end{proof}
+
+Assim como demonstrado para a Eq. \ref{eq_int_pos}, a função $v(t)$ pode 
+ser obtida pela integração de $a(t)$, conforme mostra a demonstração:
+
+$$
+a(t) = \frac{d v}{dt} \rightarrow 
+\int_{v(t)}^{v(t+\Delta t)} dv = \int_{t}^{t+\Delta t} a(t) dt
+$$
+
+
+Considerando a condição inicial arbitrada como $t=0$, então
+a relação anterior pode ser escrita na forma da Eq. \ref{eq_int_pos}.
+
+\begin{equation}
+    v(t) = \int_{0}^{\Delta t} a(t) dt
+    \label{eq_int_pos_}
+\end{equation}
+
+\begin{myboxed}
+    \textbf{EXEMPLO - Determinando a aceleração e o deslocamento a partir da
+    velocidade de um corpo. .}
+
+    Uma partícula (ponto material), desloca-se retilinearmente segundo a função
+    horário $v(t) = (8,0.t^2-4,0t)m.s^{-1}$. Determine \emph{a)} sua velocidade 
+    inicial; \emph{b)} seu deslocamento $\Delta s$ em $10 \: s$ de movimento e 
+    \emph{c)} a função horária da aceleração. 
+
+    \textbf{SOLUÇÃO:}
+
+    \emph{a)} A velocidade inicial é definida como aquela ocorrida em $t=0$, 
+    logo $v(0)$ que pode ser determinada como:
+    
+    $$
+        v(0) = 8,0\:.\:0^2 - 4,0\:.\:0 = 0,0 m.s^{-1}
+    $$
+
+    \emph{b)} O deslocamento pode ser obtido fazendo-se a integral definida no 
+    intervalo considerado, conforme mostrado na Equação \ref{eq_int_pos}, 
+    porém, como a posição inicial é desconhecida, o problema exige apenas o 
+    cálculo do deslocamento $\Delta s = s(t) - s(0)$, conforme se segue:
+
+    $$
+    \Delta s = \int_0^{10} (8,0t^2-4,0\:t) dt = \left[ \frac{8,0}{3} t^3 - 2,0 t^2\right]_0^{10} = \frac{7,4 \: . \: 10^3}{ 3} \: m
+    $$
+
+    \emph{c)} Já a função horária da aceleração, é obtida por meio da primeira 
+    derivada temporal de $v(t)$, conforme segue:
+
+    $$
+    a(t) = \frac{d((8,0.t^2-4,0t))}{dt} = (16,0 t - 4) m.s^{-2}
+    $$
+
+\end{myboxed}
+
+\subsection{Relação Diferencial entre $v(t)$ e $s(t)$}
+Sabendo que tanto a posição quanto a velocidade são funções do tempo, 
+podemos, baseados no Cálculo, a priori, supor que possa existir uma função 
+composta por ambas $v \circ s$. 
+
+Mas por que não o contrário? Por motivos físicos principalmente, é mais 
+razoável supor uma função de velocidade dependente da posição, do que uma 
+posição dependente da velocidade, já que a posição pode ser interpretada 
+como uma grandeza fundamental e a velocidade só pode ser entendida como 
+uma grandeza derivada.
+
+A composição ($v \circ s$) sugerida, pode ser matematicamente realizada, 
+dentre outras formas menos rigorosas, principalmente por meio da regra da cadeia 
+que diz - para este caso - que se $v$ é diferenciável em $s$, então esta 
+derivada pode ser obtida pelo produto da derivada de $v$ em $u$ pela 
+derivada de $u$ em $s$, onde, por conveniência, $u=t$, ou seja:
+
+$$
+\frac{dv}{ds} = \frac{dv}{du} \cdot \frac{du}{ds} = \frac{dv}{dt} \cdot \frac{dt}{ds}
+$$
+
+Após a aplicação da regra, pode-se notar que o primeiro fator do produto das 
+derivadas $\frac{dv}{dt}$ é a própria definição de aceleração, enquanto o 
+segundo fator $\frac{dt}{ds}$ é o inverso da definição de velocidade, ou seja, 
+$\frac{1}{v}$, podendo a equação ser escrita na forma dada em Eq. \ref{rel_dif}.
+
+\begin{equation}
+    \frac{dv}{ds} = a \cdot \frac{1}{v} \rightarrow v \cdot dv = a \cdot ds
+    \label{rel_dif}
+\end{equation}
+
+\begin{myboxed}
+    \textbf{EXEMPLO - Atração magnética em meio viscoso.}
+
+    Uma partícula ferromagnética está submetida à influência de um campo magnético
+    conforme ela se move para baixo em um fluído que preenche o espaço entre 
+    as placas A e B da figura. O ponto material, que incialmente estava em repouso, 
+    foi abandonado, em uma posição equidistante do centro das placas à 100 mm de 
+    cada uma delas. Seu movimento dá-se com aceleração $a(s) = (4s) m.s^{-2}$. 
+    Determine a velocidade com que ele atinge a placa B, assim como o tempo de 
+    movimento. 
+
+    \begin{staticfigure}
+        \centering
+        \includegraphics[scale=0.4]{img/hibbelerexerc.png}
+        \caption{Adaptado de Hibbeler.}
+    \end{staticfigure}
+
+    \textbf{SOLUÇÃO:}
+
+    É notável que a função da aceleração $a(s)$, tem sinal positivo, sugerindo 
+    um aumento da aceleração à medida que a partícula progride na trajetória. 
+    É igualmente notável que o movimento é descendente, já que o objetivo de
+    cálculo dá-se na placa B a partir do ponto C. Devido a essas peculiaridades 
+    do enunciado, adotaremos o sentido $A \rightarrow B$ como positivo para a 
+    análise. 
+
+    Aplicando a relação diferencial \ref{rel_dif}, para a solução e a devidas 
+    conversões de unidade pode-se fazer:
+
+    $$
+    v dv = a ds 
+    \rightarrow \int_0^{v} v dv = \int_{0,10 \: m}^{s(t)} {4s \: ds}
+    $$
+
+    $$
+    \frac{1}{2} v^2 = \left[ \frac{4}{2} s^2 \right]_{0,10}^{s(t)} \rightarrow
+    v(s) = 2\sqrt{s^2 - 0,01},
+    $$
+
+    que para 0,20 m (200 mm entre A e B), resulta em: \emph{continua...}
+\end{myboxed}
+\begin{myboxed}
+    $$
+    v(0,20 \: m) \approx 0,346 \: m/s,
+    $$
+
+    onde a raiz positiva foi escolhida pois, como dito, este é o sentido 
+    convencionado para o movimento. 
+
+    Conhecida a velocidade $v(s) = 2\sqrt{s^2 - 0,01}$, pode-se utilizar sua 
+    definição $v = ds / dt$, para a determinação do tempo de movimento. 
+
+    $$
+    v = \frac{ds}{dt} \rightarrow \frac{ds}{v} =  dt \rightarrow 
+    \int_{0,10}^{s(t)} \frac{ds}{(2\sqrt{s(t)^2 - 0,01})} = \int_0^t { dt},
+    $$
+
+    cuja solução é:
+
+    $$
+    ln(\sqrt{s(t)^2 - 0,01} + s(t))_{0,10}^{s(t)} = 2t \rightarrow
+    ln(\sqrt{s(t)^2 - 0,01} + s(t)) + 2,33 \approx 2t
+    $$
+    
+    que substituindo $s(t) = 0,20 m$ resulta em $t \approx 0,658 s$. 
+
+    Consulte sua tabela de integrais caso haja dúvida no processo de integração.
+
+    
+\end{myboxed}
+
+\subsection{Caso Especial: O Movimento com Aceleração Constante}
+
+Em alguns fenômenos e idealizações, um comportamento peculiar pode ser
+observado, a ocorrência de aceleração constante. Provavelmente, o fenômeno deste 
+tipo mais amplamente conhecido é a queda livre.
+
+\begin{mydef}
+    A queda livre é um tipo de movimento sobre o qual atua exclusivamente a 
+    força gravitacional ($F_G$), por isso é uma idealização, já que quaisquer
+    outras interferências dinâmicas devem ser desprezadas. 
+\end{mydef}
+
+De forma generalizada, para se compreender o movimento com aceleração constante,
+deve-se partir da Equação \ref{eq_ainst} admitindo que que 
+$\frac{d \vec{v}}{dt} = k$ e que $k$ é uma aceleração constante, $k = \vec{a}$.
+
+Deste modo, podemos determinar a função horária da velocidade em um movimento 
+deste tipo. \emph{As funções horárias de velocidade, são funções capazes de 
+determinar o vetor velocidade como função exclusiva do tempo, endo escritas na
+forma} $y = v(t)$. 
+
+\begin{proof}
+    \label{Dem:func_h_vel}
+    Se:
+    $$
+    a_{const} = \frac{dv}{dt},
+    $$
+    onde o caráter vetorial foi propositalmente omitido por tratar-se de 
+    cinemática retilinear; então se pode fazer antiderivação da seguinte forma:
+
+    $$
+        dv = a \: . \: dt \rightarrow 
+        \int_{v(t=0)}^{v(t+\Delta t)} (dv) = \int_{t=0}^{t+\Delta t} (a \: . \: dt),
+    $$
+    onde o limite inferior foi assumido como ($t=0$) e que resulta em:
+
+    $$
+    \Delta v = a\: . \:t,
+    $$
+
+    Finalmente dando origem a Equação \ref{Eq:func_hor_vel_ak}.
+    
+    \begin{equation}
+        v(t) = a\: . \:t + v(0)
+        \label{Eq:func_hor_vel_ak}
+    \end{equation}
+
+    Onde $v(t)$ é a velocidade no tempo $t > 0$, $a$ a aceleração constante e 
+    $v(0)$, a velocidade inicial.
+\end{proof}
+
+Para a posição $s(t)$, ou $\vec{r}(t)$ \footnote{Em nosso curso geralmente 
+utilizaremos $s$ para denotar a posição como uma grandeza escalar e $\vec{r}$
+para representar a posição como uma grandeza vetorial.}, deve-se repetir o 
+mesmo procedimento da Demonstração \ref{Dem:func_h_vel} no entanto, partindo da
+Equação \ref{eq_int_pos}.
+
+\begin{proof}
+    Se $s(t) = \int_{0}^{t} v(t) dt$ e $v(t) = a\: . \:t + v(0)$, então:
+
+    $$
+        s(t) = \left(\int_{0}^{t} (a\: . \:t + v(0)) dt \right) + s(0),
+    $$
+
+    resultando na forma da \textbf{função horária da posição} dada pela 
+    Equação \ref{Eq:func_hr_pos}.
+
+    \begin{equation}
+        s(t) =  \frac{1}{2} a \: . \: t^2 + v(0)\: . \: t + s(0);
+        \label{Eq:func_hr_pos}
+    \end{equation}
+
+\end{proof}
+
+Uma terceira ferramenta, muito utilizada em casos onde a aceleração do movimento 
+retilinear, é constante é a Equação de Torricelli dada pela Equação 
+\ref{Eq:Torricelli}. Veja sua demonstração. 
+\begin{proof}
+
+    Tomando $t$ na função horária da velocidade, na forma 
+    $t = \frac{v(t) - v(0)}{a}$, e substituindo o seu valor na Equação 
+    \ref{Eq:func_hr_pos}. 
+
+    Pode-se fazer:
+
+    $$
+    i) \: s(t) = s(0) + v(0) \frac{v(t) - v(0)}{a} + \frac{1}{2} a \left(\frac{v(t) - v(0)}{a} \right)^2
+    $$
+    $$
+    ii) \: s(t) = s(0) + v(0) \frac{v(t) - v(0)}{a} + \frac{1}{2} a \left(\frac{v(t) - v(0)}{a} \right)^2
+    $$
+    $$
+    iii) \: s(t) = s(0) +  \frac{v(t)v(0) - v(0)^2}{a} + \frac{1}{2} a \left(\frac{v(t)^2 - 2v(t)v(0) + v(0)^2}{a a} \right)
+    $$
+    $$
+    iv) \: s(t) - s(0) =  \frac{v(t)v(0) - v(0)^2}{a} + \left(\frac{v(t)^2 - 2v(t)v(0) + v(0)^2}{2a} \right)
+    $$
+    $$
+    v) \: s(t) - s(0) = \frac{2v(t)v(0) - 2v(0)^2 + v(t)^2 - 2v(t)v(0) + v(0)^2}{2a}
+    $$
+    $$
+    vi) \: s(t) - s(0) = \frac{2v(t)v(0) - 2v(0)^2 + v(t)^2 - 2v(t)v(0) + v(0)^2}{2a}
+    $$
+    $$
+    vii) \: \Delta s = \frac{ -v(0)^2 + v(t)^2  }{2a} \rightarrow  2a \Delta s=  -v(0)^2 + v(t)^2
+    $$
+    
+    \begin{equation}
+        \label{Eq:Torricelli}
+        v(t)^2 = v(0)^2 + 2 a \Delta s
+    \end{equation}
+\end{proof}
+
+Uma demonstração mais simples e, simultaneamente, mais rigorosa, poderia ser 
+obtida da Equação \ref{rel_dif}, conforme demonstrado abaixo. 
+
+\begin{proof}
+    $$
+    v \cdot dv = a \cdot ds \rightarrow 
+    \int_{v(0)}^{v(t)} v \cdot dv =  \int_{s(0)}^{s(t)} a \cdot ds
+    $$
+
+    $$
+    \frac{v(t)^2 - v(0)^2}{2} = a (s(t) - s(0)) \rightarrow v(t)^2 - v(0)^2 = 2 a \Delta s
+    $$
+
+    resultando na forma da Equação \ref{rel_dif}
+
+    $$
+    v(t)^2 = v(0)^2 + 2 a \Delta s
+    $$
+\end{proof}
+
+Uma importante característica da Equação de Torricelli é que é independente do 
+tempo, de forma tal que velocidades, acelerações e deslocamentos podem ser 
+obtidos para situações onde esta grandeza for omitida ou desconhecida.
+
+Ainda que a Equação \ref{Eq:Torricelli} seja válida exclusivamente para casos com 
+aceleração constante, a relação expressa pela Equação \ref{rel_dif}, não o é, 
+podendo ser aplicada de forma generalizada.
+
+Devido ao algebrismo próprio do movimento com aceleração constante ser muito 
+elementar e idêntico à abordagem comum utilizada durante o ensino médio, não 
+serão oferecidos exemplos de uso das equações nesta subseção. 
 
 \label{lastpage}
 \end{document}
