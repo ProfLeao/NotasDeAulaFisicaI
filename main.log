@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.13)  25 AUG 2021 00:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.13)  16 SEP 2021 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
@@ -365,78 +365,111 @@ Package csquotes Info: ... configuration file loaded successfully.
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count297
+\calc@Bcount=\count298
+\calc@Adimen=\dimen158
+\calc@Bdimen=\dimen159
+\calc@Askip=\skip83
+\calc@Bskip=\skip84
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count299
+\calc@Cskip=\skip85
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count300
+\l_MT_multwidth_dim=\dimen160
+\origjot=\skip86
+\l_MT_shortvdotswithinadjustabove_dim=\dimen161
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen162
+\l_MT_above_intertext_sep=\dimen163
+\l_MT_below_intertext_sep=\dimen164
+\l_MT_above_shortintertext_sep=\dimen165
+\l_MT_below_shortintertext_sep=\dimen166
+)
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-\c@mydef=\count297
-\c@proof=\count298
+\c@mydef=\count301
+\c@proof=\count302
 \columni=\box50
-\colwidthi=\skip83
-\colheighti=\skip84
-\col@i@posx=\skip85
-\col@i@posy=\skip86
-\col@i@evenx=\skip87
-\col@i@eveny=\skip88
-\@df@i@posx=\skip89
-\@df@i@posy=\skip90
-\@df@i@evenx=\skip91
-\@df@i@eveny=\skip92
+\colwidthi=\skip87
+\colheighti=\skip88
+\col@i@posx=\skip89
+\col@i@posy=\skip90
+\col@i@evenx=\skip91
+\col@i@eveny=\skip92
+\@df@i@posx=\skip93
+\@df@i@posy=\skip94
+\@df@i@evenx=\skip95
+\@df@i@eveny=\skip96
 \@staticframe@i=\box51
-\@sf@i@posx=\skip93
-\@sf@i@posy=\skip94
-\@sf@i@evenx=\skip95
-\@sf@i@eveny=\skip96
+\@sf@i@posx=\skip97
+\@sf@i@posy=\skip98
+\@sf@i@evenx=\skip99
+\@sf@i@eveny=\skip100
 \@staticframe@ii=\box52
-\@sf@ii@posx=\skip97
-\@sf@ii@posy=\skip98
-\@sf@ii@evenx=\skip99
-\@sf@ii@eveny=\skip100
+\@sf@ii@posx=\skip101
+\@sf@ii@posy=\skip102
+\@sf@ii@evenx=\skip103
+\@sf@ii@eveny=\skip104
 \@staticframe@iii=\box53
-\@sf@iii@posx=\skip101
-\@sf@iii@posy=\skip102
-\@sf@iii@evenx=\skip103
-\@sf@iii@eveny=\skip104
+\@sf@iii@posx=\skip105
+\@sf@iii@posy=\skip106
+\@sf@iii@evenx=\skip107
+\@sf@iii@eveny=\skip108
 \@staticframe@iv=\box54
-\@sf@iv@posx=\skip105
-\@sf@iv@posy=\skip106
-\@sf@iv@evenx=\skip107
-\@sf@iv@eveny=\skip108
+\@sf@iv@posx=\skip109
+\@sf@iv@posy=\skip110
+\@sf@iv@evenx=\skip111
+\@sf@iv@eveny=\skip112
 \@staticframe@v=\box55
-\@sf@v@posx=\skip109
-\@sf@v@posy=\skip110
-\@sf@v@evenx=\skip111
-\@sf@v@eveny=\skip112
-\@df@ii@posx=\skip113
-\@df@ii@posy=\skip114
-\@df@ii@evenx=\skip115
-\@df@ii@eveny=\skip116
+\@sf@v@posx=\skip113
+\@sf@v@posy=\skip114
+\@sf@v@evenx=\skip115
+\@sf@v@eveny=\skip116
+\@df@ii@posx=\skip117
+\@df@ii@posy=\skip118
+\@df@ii@evenx=\skip119
+\@df@ii@eveny=\skip120
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count299
+\l__kernel_color_stack_int=\count303
 \l__pdf_internal_box=\box56
 )
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -474,16 +507,16 @@ LaTeX Font Info:    ... okay on input line 70.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen158
+\scratchcounter=\count304
+\scratchdimen=\dimen167
 \scratchbox=\box57
-\nofMPsegments=\count301
-\nofMParguments=\count302
+\nofMPsegments=\count305
+\nofMParguments=\count306
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen159
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
+\MPscratchCnt=\count307
+\MPscratchDim=\dimen168
+\MPnumerator=\count308
+\makeMPintoPDFobject=\count309
 \everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -495,7 +528,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring ON on input line 70.
+Package hyperref Info: Link coloring ON on input line 71.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -506,33 +539,33 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count306
+\c@section@level=\count310
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 
-Overfull \hbox (17.81909pt too wide) in paragraph at lines 74--74
+Overfull \hbox (17.81909pt too wide) in paragraph at lines 75--75
 []\OT1/cmss/m/sl/24.88 IFMG&GESESC 
  []
 
 
-Underfull \hbox (badness 4765) in paragraph at lines 74--74
+Underfull \hbox (badness 4765) in paragraph at lines 75--75
 \OT1/cmss/m/n/10.95 Instituto Fed-eral de Mi-nas
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 74--74
+Underfull \hbox (badness 2393) in paragraph at lines 75--75
 \OT1/cmss/m/n/10.95 Grupo de Es-tu-dos em Sis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
 
  []
 
@@ -540,113 +573,113 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
 ]
 Chapter 1.
-<img/nebhelix.png, id=64, 551.81157pt x 377.91188pt>
+<img/nebhelix.png, id=104, 551.81157pt x 377.91188pt>
 File: img/nebhelix.png Graphic file (type png)
 <use img/nebhelix.png>
-Package pdftex.def Info: img/nebhelix.png  used on input line 85.
+Package pdftex.def Info: img/nebhelix.png  used on input line 86.
 (pdftex.def)             Requested size: 220.72072pt x 151.16206pt.
 [2
 
  <./img/nebhelix.png (PNG copy)>]
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 117.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 118.
 
  [3]
-Underfull \hbox (badness 10000) in paragraph at lines 179--189
+Underfull \hbox (badness 10000) in paragraph at lines 180--190
 
  []
 
 [4]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 189--196
+Overfull \hbox (12.0pt too wide) in paragraph at lines 190--197
  [] 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 201.
+(Font)              using `OT1/cmss/bx/n' instead on input line 202.
 
 [5]
-<img/reguaescolar.png, id=105, 807.61725pt x 350.87085pt>
+<img/reguaescolar.png, id=145, 807.61725pt x 350.87085pt>
 File: img/reguaescolar.png Graphic file (type png)
 <use img/reguaescolar.png>
-Package pdftex.def Info: img/reguaescolar.png  used on input line 245.
+Package pdftex.def Info: img/reguaescolar.png  used on input line 246.
 (pdftex.def)             Requested size: 363.42441pt x 157.89041pt.
  [6 <./img/reguaescolar.png>]
-<img/algarismossig.png, id=117, 258.7266pt x 208.49895pt>
+<img/algarismossig.png, id=157, 258.7266pt x 208.49895pt>
 File: img/algarismossig.png Graphic file (type png)
 <use img/algarismossig.png>
-Package pdftex.def Info: img/algarismossig.png  used on input line 273.
+Package pdftex.def Info: img/algarismossig.png  used on input line 274.
 (pdftex.def)             Requested size: 142.30005pt x 114.67476pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 289--302
+Overfull \hbox (12.0pt too wide) in paragraph at lines 290--303
  [] 
  []
 
 [7 <./img/algarismossig.png>] [8]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 351--357
+Overfull \hbox (12.0pt too wide) in paragraph at lines 352--358
  [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 364--370
+Overfull \hbox (12.0pt too wide) in paragraph at lines 365--371
  [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 389--404
+Overfull \hbox (12.0pt too wide) in paragraph at lines 390--405
  [] 
  []
 
 [9]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-417.
+418.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (12.0pt too wide) in paragraph at lines 409--429
+Overfull \hbox (12.0pt too wide) in paragraph at lines 410--430
  [] 
  []
 
 [10] [11]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 459--502
+Overfull \hbox (12.0pt too wide) in paragraph at lines 460--503
  [] 
  []
 
 [12]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 516--523
+Overfull \hbox (12.0pt too wide) in paragraph at lines 517--524
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--557
+Underfull \hbox (badness 10000) in paragraph at lines 533--558
 
  []
 
 [13]
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 605.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 606.
 
  [14]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 640--668
+Overfull \hbox (12.0pt too wide) in paragraph at lines 641--669
  [] 
  []
 
 [15]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 670--686
+Overfull \hbox (12.0pt too wide) in paragraph at lines 671--687
  [] 
  []
 
 [16] [17]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 735--740
+Underfull \hbox (badness 10000) in paragraph at lines 736--741
 
  []
 
-<img/vecr.png, id=195, 132.9768pt x 99.9735pt>
+<img/vecr.png, id=235, 132.9768pt x 99.9735pt>
 File: img/vecr.png Graphic file (type png)
 <use img/vecr.png>
-Package pdftex.def Info: img/vecr.png  used on input line 744.
+Package pdftex.def Info: img/vecr.png  used on input line 745.
 (pdftex.def)             Requested size: 132.97647pt x 99.97324pt.
 
 Overfull \hbox (0.54137pt too wide) has occurred while \output is active
@@ -657,7 +690,7 @@ Overfull \hbox (0.54137pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <24.88> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 783.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 784.
 
 
 Overfull \hbox (0.54137pt too wide) has occurred while \output is active
@@ -670,15 +703,15 @@ Overfull \hbox (0.54137pt too wide) has occurred while \output is active
  []
 
 [20]
-<img/vmed.png, id=225, 386.28316pt x 259.81065pt>
+<img/vmed.png, id=265, 386.28316pt x 259.81065pt>
 File: img/vmed.png Graphic file (type png)
 <use img/vmed.png>
-Package pdftex.def Info: img/vmed.png  used on input line 826.
+Package pdftex.def Info: img/vmed.png  used on input line 827.
 (pdftex.def)             Requested size: 193.1411pt x 129.905pt.
-<img/vinst.png, id=229, 382.66965pt x 284.0211pt>
+<img/vinst.png, id=269, 382.66965pt x 284.0211pt>
 File: img/vinst.png Graphic file (type png)
 <use img/vinst.png>
-Package pdftex.def Info: img/vinst.png  used on input line 862.
+Package pdftex.def Info: img/vinst.png  used on input line 863.
 (pdftex.def)             Requested size: 191.33435pt x 142.0102pt.
 
 Overfull \hbox (0.54137pt too wide) has occurred while \output is active
@@ -696,7 +729,7 @@ Overfull \hbox (0.54137pt too wide) has occurred while \output is active
  []
 
 [23]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 954--988
+Overfull \hbox (12.0pt too wide) in paragraph at lines 955--989
  [] 
  []
 
@@ -708,19 +741,19 @@ Overfull \hbox (0.54137pt too wide) has occurred while \output is active
 [24]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 990.
+(hyperref)                removing `math shift' on input line 991.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 990.
+(hyperref)                removing `math shift' on input line 991.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 990.
+(hyperref)                removing `math shift' on input line 991.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 990.
+(hyperref)                removing `math shift' on input line 991.
 
 
 Overfull \hbox (0.54137pt too wide) has occurred while \output is active
@@ -728,13 +761,13 @@ Overfull \hbox (0.54137pt too wide) has occurred while \output is active
  []
 
 [25]
-<img/hibbelerexerc.png, id=279, 289.83281pt x 240.9pt>
+<img/hibbelerexerc.png, id=320, 289.83281pt x 240.9pt>
 File: img/hibbelerexerc.png Graphic file (type png)
 <use img/hibbelerexerc.png>
-Package pdftex.def Info: img/hibbelerexerc.png  used on input line 1034.
+Package pdftex.def Info: img/hibbelerexerc.png  used on input line 1035.
 (pdftex.def)             Requested size: 115.93106pt x 96.35828pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 1021--1061
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1022--1062
  [] 
  []
 
@@ -744,7 +777,7 @@ Overfull \hbox (0.54137pt too wide) has occurred while \output is active
  []
 
 [26]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 1062--1090
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1063--1091
  [] 
  []
 
@@ -769,36 +802,102 @@ Overfull \hbox (0.54137pt too wide) has occurred while \output is active
  []
 
 [30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1238.
-
 Overfull \hbox (0.54137pt too wide) has occurred while \output is active
 []\OT1/cmss/m/sl/24.88 CINEM[]ATICA 
  []
 
 [31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1238.
+Chapter 3.
+<img/posicoes.png, id=371, 442.91185pt x 339.669pt>
+File: img/posicoes.png Graphic file (type png)
+<use img/posicoes.png>
+Package pdftex.def Info: img/posicoes.png  used on input line 1261.
+(pdftex.def)             Requested size: 177.16159pt x 135.86519pt.
+[32
+
+ <./img/posicoes.png>]
+<img/componentes.png, id=386, 369.60944pt x 295.27457pt>
+File: img/componentes.png Graphic file (type png)
+<use img/componentes.png>
+Package pdftex.def Info: img/componentes.png  used on input line 1288.
+(pdftex.def)             Requested size: 240.24327pt x 191.92618pt.
+ [33 <./img/componentes.png>]
+<img/vetor3d2.png, id=395, 406.51875pt x 350.81062pt>
+File: img/vetor3d2.png Graphic file (type png)
+<use img/vetor3d2.png>
+Package pdftex.def Info: img/vetor3d2.png  used on input line 1312.
+(pdftex.def)             Requested size: 325.21542pt x 280.64886pt.
+ [34 <./img/vetor3d2.png (PNG copy)>]
+<img/angsvetor3d.png, id=403, 767.11594pt x 274.02374pt>
+File: img/angsvetor3d.png Graphic file (type png)
+<use img/angsvetor3d.png>
+Package pdftex.def Info: img/angsvetor3d.png  used on input line 1334.
+(pdftex.def)             Requested size: 460.27312pt x 164.41551pt.
+ [35 <./img/angsvetor3d.png>]
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1345--1363
+ [] 
+ []
+
+<img/igualdadevetores.png, id=414, 531.9072pt x 531.9072pt>
+File: img/igualdadevetores.png Graphic file (type png)
+<use img/igualdadevetores.png>
+Package pdftex.def Info: img/igualdadevetores.png  used on input line 1397.
+(pdftex.def)             Requested size: 265.95294pt x 265.95294pt.
+[36] [37 <./img/igualdadevetores.png>]
+<img/unitarios.png, id=432, 239.57504pt x 236.3229pt>
+File: img/unitarios.png Graphic file (type png)
+<use img/unitarios.png>
+Package pdftex.def Info: img/unitarios.png  used on input line 1431.
+(pdftex.def)             Requested size: 143.74612pt x 141.79482pt.
+ [38 <./img/unitarios.png>]
+<img/somasvetoriais.png, id=445, 630.9171pt x 426.393pt>
+File: img/somasvetoriais.png Graphic file (type png)
+<use img/somasvetoriais.png>
+Package pdftex.def Info: img/somasvetoriais.png  used on input line 1475.
+(pdftex.def)             Requested size: 252.36237pt x 170.55417pt.
+ [39 <./img/somasvetoriais.png>]
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1488--1511
+ [] 
+ []
+
+[40]
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1568--1597
+ [] 
+ []
+
+[41] [42]
+Overfull \hbox (12.0pt too wide) in paragraph at lines 1633--1665
+ [] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1667.
+[43]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1667.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1238.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1238.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1667.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1667.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6A3E1537C497797779793C7B046EDCBD;959.
+(rerunfilecheck)             Checksum: 56A83213B7103C12068EA33A2ABD8109;1769.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1238.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1667.
  ) 
 Here is how much of TeX's memory you used:
- 8930 strings out of 481239
- 133340 string characters out of 5920377
- 449487 words of memory out of 5000000
- 23929 multiletter control sequences out of 15000+600000
- 543346 words of font info for 61 fonts, out of 8000000 for 9000
+ 9613 strings out of 481239
+ 145135 string characters out of 5920377
+ 465635 words of memory out of 5000000
+ 24540 multiletter control sequences out of 15000+600000
+ 544892 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,13n,42p,443b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
+ 37i,16n,42p,439b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
 , replaced by a fixed one
@@ -810,32 +909,34 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmssi17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (31 pages, 1081322 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+si12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfss1095.pfb>
+Output written on main.pdf (43 pages, 1419585 bytes).
 PDF statistics:
- 431 PDF objects out of 1000 (max. 8388607)
- 358 compressed objects within 4 object streams
- 104 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 608 PDF objects out of 1000 (max. 8388607)
+ 506 compressed objects within 6 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 255 words of extra memory for PDF output out of 10000 (max. 10000000)
 
